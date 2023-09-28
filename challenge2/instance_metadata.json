@@ -1,0 +1,44 @@
+{'Reservations': [
+        {'Groups': [], 'Instances': [
+                {'AmiLaunchIndex': 0, 'ImageId': 'ami-03a6eaae9938c858c', 'InstanceId': 'i-0953b7f39899ee446', 'InstanceType': 't2.micro', 'LaunchTime': datetime.datetime(2023,
+                    9,
+                    28,
+                    8,
+                    39,
+                    4, tzinfo=tzutc()), 'Monitoring': {'State': 'disabled'
+                    }, 'Placement': {'AvailabilityZone': 'us-east-1c', 'GroupName': '', 'Tenancy': 'default'
+                    }, 'PrivateDnsName': 'ip-172-31-88-19.ec2.internal', 'PrivateIpAddress': '172.31.88.19', 'ProductCodes': [], 'PublicDnsName': 'ec2-54-209-151-95.compute-1.amazonaws.com', 'PublicIpAddress': '54.209.151.95', 'State': {'Code': 16, 'Name': 'running'
+                    }, 'StateTransitionReason': '', 'SubnetId': 'subnet-0c7a2415227ab793a', 'VpcId': 'vpc-0983207a5464fd8fb', 'Architecture': 'x86_64', 'BlockDeviceMappings': [
+                        {'DeviceName': '/dev/xvda', 'Ebs': {'AttachTime': datetime.datetime(2023,
+                                9,
+                                28,
+                                8,
+                                39,
+                                5, tzinfo=tzutc()), 'DeleteOnTermination': True, 'Status': 'attached', 'VolumeId': 'vol-00417b0fdeab4ffc0'
+                            }
+                        }
+                    ], 'ClientToken': 'c0cf165b-928b-4c1c-a6c2-e5b3d08390bb', 'EbsOptimized': False, 'EnaSupport': True, 'Hypervisor': 'xen', 'NetworkInterfaces': [
+                        {'Association': {'IpOwnerId': 'amazon', 'PublicDnsName': 'ec2-54-209-151-95.compute-1.amazonaws.com', 'PublicIp': '54.209.151.95'
+                            }, 'Attachment': {'AttachTime': datetime.datetime(2023,
+                                9,
+                                28,
+                                8,
+                                39,
+                                4, tzinfo=tzutcpTokens': 'required', 'HttpPutResponseHopLimit': 2, 'HttpEndpoint': 'enabled', 'HttpProtocolIpv6': 'disabled', 'InstanceMetadataTags': 'disabled'
+                            }, 'EnclaveOptions': {'Enabled': False
+                            }, 'BootMode': 'uefi-preferred', 'PlatformDetails': 'Linux/UNIX', 'UsageOperation': 'RunInstances', 'UsageOperationUpdateTime': datetime.datetime(2023,
+                            9,
+                            28,
+                            8,
+                            39,
+                            4, tzinfo=tzutc()), 'PrivateDnsNameOptions': {'HostnameType': 'ip-name', 'EnableResourceNameDnsARecord': True, 'EnableResourceNameDnsAAAARecord': False
+                            }, 'MaintenanceOptions': {'AutoRecovery': 'default'
+                            }, 'CurrentInstanceBootMode': 'legacy-bios'
+                        }
+                    ], 'OwnerId': '511620223753', 'ReservationId': 'r-02e148b271c17b305'
+                }
+            ], 'ResponseMetadata': {'RequestId': '8607c8c3-ffbf-4cf3-b3f8-044f4f26af96', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '8607c8c3-ffbf-4cf3-b3f8-044f4f26af96', 'cache-control': 'no-cache, no-store', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'vary': 'accept-encoding', 'content-type': 'text/xml;charset=UTF-8', 'transfer-encoding': 'chunked', 'date': 'Thu,
+                    28 Sep 2023 11: 15: 59 GMT', 'server': 'AmazonEC2'
+                }, 'RetryAttempts': 0
+            }
+        }
