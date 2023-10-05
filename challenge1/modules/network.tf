@@ -135,7 +135,7 @@ resource "aws_vpc_endpoint" "ec2_messages_endpoint" {
 
 resource "aws_security_group" "private_sg" {
   name        = var.private_sg_name
-  description = "Security group for private instances"
+  description = "Security group for VPC Endpoints"
   vpc_id      = aws_vpc.project_vpc.id
   ingress {
     from_port   = 443
